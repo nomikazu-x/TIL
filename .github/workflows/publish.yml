@@ -1,0 +1,30 @@
+name: Publish articles
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'qiita/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  publish_articles:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: ./.github/actions/qiita-publish
+        with:
+          qiita-token: ${{ secrets.QIITA_TOKEN }}
+          github-token: ${{ secrets.GH_TOKEN }}
+          rootdir: ./qiita
