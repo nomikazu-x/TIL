@@ -6,7 +6,7 @@ topics:
   - 基本情報技術者
   - n進数
   - Web
-published: true
+published: false
 ---
 
 ## はじめに
