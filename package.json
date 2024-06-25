@@ -17,7 +17,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@qiita/qiita-cli": "^0.3.0",
+    "@qiita/qiita-cli": "^1.4.0",
     "@types/git-url-parse": "^9.0.1",
     "@types/js-yaml": "^4.0.5",
     "@types/node": "^20.4.0",
