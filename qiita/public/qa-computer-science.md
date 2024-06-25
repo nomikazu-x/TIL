@@ -1,11 +1,11 @@
 ---
 title: 【基本情報技術者】コンピューターサイエンスに関する問題をひたすら解く
-private: false
 tags:
-  - 基本情報技術者
-  - コンピューターサイエンス
   - Web
-updated_at: '2024-06-25T22:10:25+09:00'
+  - コンピューターサイエンス
+  - 基本情報技術者
+private: false
+updated_at: '2024-06-25T22:19:52+09:00'
 id: 8713ed2b0ebfcc8c5f2c
 organization_url_name: null
 slide: false

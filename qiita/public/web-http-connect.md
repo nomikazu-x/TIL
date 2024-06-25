@@ -1,12 +1,12 @@
 ---
 title: 【基本情報技術者】Webの仕組みとHTTP通信について解説
-private: false
 tags:
-  - 基本情報技術者
-  - http
+  - HTTP
   - Web
-updated_at: '2024-06-25T13:19:13.489Z'
-id: null
+  - 基本情報技術者
+private: false
+updated_at: '2024-06-25T22:19:53+09:00'
+id: 52c4990aa19a969025f2
 organization_url_name: null
 slide: false
 ignorePublish: false
