@@ -7,9 +7,12 @@ CHANGED_FILES=$(git diff-tree --no-commit-id --name-only -r HEAD | grep '\.md$')
 for FILE in $CHANGED_FILES; do
     # 変更があったファイルのパスを表示
     echo "Changed file path: $FILE"
+
+    FILE=${1}
     
     # ファイルのパスがarticles配下ではない場合、処理をスキップ
-    if [[ ! $FILE =~ ^articles/ ]]; then
+    if [[ ! $FILE =~ ^articles/ ]] || [[ ! -e $FILE ]]; then
+        echo "Skip ztoq: $FILE"
         continue
     fi
     
@@ -18,6 +21,7 @@ for FILE in $CHANGED_FILES; do
     
     # ファイル名と同じファイルがqiita/public配下に存在しない場合だけ、npx qiita newを実行
     if [ ! -e "qiita/public/$FILENAME.md" ]; then
+        echo "Create qiita/public/$FILENAME.md"
         cd ./qiita
         npx qiita new "$FILENAME"
         cd ../
@@ -25,6 +29,7 @@ for FILE in $CHANGED_FILES; do
 
     # ./node_modules/.bin/ts-node scripts/ztoq.ts "取得したファイルパス" qiita/public/"取得したファイル名.md"を実行
     ./node_modules/.bin/ts-node scripts/ztoq.ts "$FILE" "qiita/public/$FILENAME.md"
+    echo "Convert $FILE to qiita/public/$FILENAME.md"
 done
 
 # 最後にgit hubにあげる
