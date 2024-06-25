@@ -1,12 +1,12 @@
 ---
 title: 【基本情報技術者】n進数とは何かを解説
-emoji: "🔢"
-type: "tech" # tech: 技術記事 / idea: アイデア
+emoji: 🔢
+type: tech # tech: 技術記事 / idea: アイデア
 topics: 
   - 基本情報技術者
   - n進数
   - Web
-published: false
+published: true
 ---
 
 ## はじめに
