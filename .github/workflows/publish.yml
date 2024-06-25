@@ -3,7 +3,7 @@ name: Publish articles
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - 'qiita/**'
   workflow_dispatch:
