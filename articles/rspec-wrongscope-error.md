@@ -4,7 +4,7 @@ emoji: 📝
 type: tech
 topics:
   - Ruby
-  - Ruby on Rails
+  - Rails
   - Rspec
 published: true
 ---
