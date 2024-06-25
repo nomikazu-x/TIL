@@ -1,12 +1,12 @@
 ---
 title: rails sが起動しなくなった
-private: false
 tags:
   - Ruby
   - Rails
-  - Puma
-updated_at: '2024-06-25T14:50:13.559Z'
-id: null
+  - puma
+private: false
+updated_at: '2024-06-25T23:51:14+09:00'
+id: 4e8fdab4ef696421adf5
 organization_url_name: null
 slide: false
 ignorePublish: false
