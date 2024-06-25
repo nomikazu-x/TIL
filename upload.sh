@@ -7,8 +7,6 @@ CHANGED_FILES=$(git diff-tree --no-commit-id --name-only -r HEAD | grep '\.md$')
 for FILE in $CHANGED_FILES; do
     # 変更があったファイルのパスを表示
     echo "Changed file path: $FILE"
-
-    FILE=${1}
     
     # ファイルのパスがarticles配下ではない場合、処理をスキップ
     if [[ ! $FILE =~ ^articles/ ]] || [[ ! -e $FILE ]]; then

@@ -1,12 +1,14 @@
 ---
 title: Rspec WrongScopeErrorが発生
-emoji: 📝
-type: tech
-topics:
+private: false
+tags:
   - Ruby
   - Ruby on Rails
   - Rspec
-published: true
+updated_at: '2024-06-25T02:41:42.102Z'
+id: null
+organization_url_name: null
+slide: false
 ---
 
 Rspecでテストを走らせた際に発生した問題について、備忘録として投稿します。
