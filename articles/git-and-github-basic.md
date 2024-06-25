@@ -1,6 +1,6 @@
 ---
 title: 徹底解説！Git・GitHubに関する基礎知識とコマンド
-emoji: 🔢
+emoji: 🐱
 type: tech # tech: 技術記事 / idea: アイデア
 topics: 
   - Git
