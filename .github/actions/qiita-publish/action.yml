@@ -44,4 +44,4 @@ runs:
       uses: CasperWA/push-protected@v2
       with:
         token: ${{ inputs.github-token }}
-        branch: main
+        branch: master
