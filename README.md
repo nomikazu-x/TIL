@@ -1,4 +1,4 @@
 # Zenn Qiita Contents
 
-- Zenn: https://zenn.dev/ot07
-- Qiita: https://qiita.com/ot07
+- Zenn: https://zenn.dev/nomikazu_x
+- Qiita: https://qiita.com/nomikazu_x
