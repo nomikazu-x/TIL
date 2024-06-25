@@ -5,17 +5,25 @@
 
 
 # コマンド
-## 1. Qiita, Zennに投稿
+## 1. Zennで執筆
+```
+npx zenn new:article // 新規作成
+npx zenn preview // プレビュー
+```
+http://localhost:8000/でプレビューしながら執筆
+
+## 2. コンテンツをGitHubに保存、Zenn, Qiitaにアップ
+```
 sh upload.sh
+```
 
 # 参考
-qiita-cli：https://github.com/increments/qiita-cli
-GitHubリポジトリでZennのコンテンツを管理する：https://zenn.dev/zenn/articles/connect-to-github
-リポジトリ参考：https://zenn.dev/ot07/articles/zenn-qiita-article-centralized
+- qiita-cli：https://github.com/increments/qiita-cli
+- GitHubリポジトリでZennのコンテンツを管理する：https://zenn.dev/zenn/articles/connect-to-github
+- リポジトリ参考：https://zenn.dev/ot07/articles/zenn-qiita-article-centralized
 
 # GitHub Actions(Qiita投稿) エラー集
-qiita で起きたエラーやミスをまとめていきます（随時更新）
-主に Qiita-CLI
+Qiita-CLI で起きたエラーやミスをまとめていきます（随時更新）
 
 # command error
 
