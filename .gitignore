@@ -3,3 +3,4 @@ node_modules
 .remote
 .idea
 .vscode
+credentials.json

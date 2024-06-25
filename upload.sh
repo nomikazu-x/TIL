@@ -1,7 +1,7 @@
 #!/bin/bash
 
 git add .
-git commit -m "save: zenn保存"
+git commit -m "save: zenn"
 
 # 1. .md形式の変更があったファイルのパスとファイル名を取得
 CHANGED_FILES=$(git diff-tree --no-commit-id --name-only -r HEAD | grep '\.md$')
@@ -35,5 +35,5 @@ done
 
 # 最後にgit hubにあげる
 git add .
-git commit -m "post: zenn, qiita投稿"
+git commit -m "post: zenn, qiita"
 git push
