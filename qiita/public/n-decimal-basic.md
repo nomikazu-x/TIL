@@ -1,12 +1,12 @@
 ---
 title: 【基本情報技術者】n進数とは何かを解説
-private: true
 tags:
-  - 基本情報技術者
-  - n進数
   - Web
-updated_at: '2024-06-25T12:45:29.520Z'
-id: null
+  - 基本情報技術者
+  - N進数
+private: true
+updated_at: '2024-06-25T21:46:12+09:00'
+id: d58407426617f57b142c
 organization_url_name: null
 slide: false
 ignorePublish: false
