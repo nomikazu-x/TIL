@@ -34,6 +34,7 @@ export function convertFrontmatter(outputPath?: string) {
 
     // Add slide Option
     dataCloned.slide = false
+    dataCloned.ignorePublish = false
 
     const frontmatter = yaml.dump(dataCloned)
     return `---\n${frontmatter}---\n${content}`
