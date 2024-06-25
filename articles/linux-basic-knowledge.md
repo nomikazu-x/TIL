@@ -1,5 +1,5 @@
 ---
-title: Rspec WrongScopeErrorを解決
+title: Rspec WrongScopeErrorが発生
 emoji: 📝
 type: tech
 topics:
