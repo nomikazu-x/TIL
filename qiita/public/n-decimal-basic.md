@@ -1,6 +1,6 @@
 ---
 title: 【基本情報技術者】n進数とは何かを解説
-private: true
+private: false
 tags:
   - 基本情報技術者
   - n進数
