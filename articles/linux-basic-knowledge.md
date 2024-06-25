@@ -6,7 +6,6 @@ topics:
   - Ruby
   - Ruby on Rails
   - Rspec
-  - テスト
 published: true
 ---
 

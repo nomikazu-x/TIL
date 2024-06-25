@@ -33,6 +33,6 @@ for FILE in $CHANGED_FILES; do
 done
 
 # 最後にgit hubにあげる
-git add .
-git commit -m "保存"
-git push
+# git add .
+# git commit -m "保存"
+# git push
