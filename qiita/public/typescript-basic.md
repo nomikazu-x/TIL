@@ -1,12 +1,12 @@
 ---
 title: 【2024年最新】徹底解説！TypeScriptの超基本を超分かりやすく説明
-private: false
 tags:
-  - TypeScript
   - JavaScript
+  - TypeScript
   - React
-updated_at: '2024-06-26T06:15:44.950Z'
-id: null
+private: false
+updated_at: '2024-06-26T15:16:23+09:00'
+id: 290206613d3f62790808
 organization_url_name: null
 slide: false
 ignorePublish: false

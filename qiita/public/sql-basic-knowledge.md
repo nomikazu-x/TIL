@@ -1,14 +1,14 @@
 ---
 title: 徹底解説！SQLの超基礎入門
-private: false
 tags:
-  - SQL
   - MySQL
+  - SQL
   - PostgreSQL
   - SQLite
   - 基礎
-updated_at: '2024-06-26T06:15:43.316Z'
-id: null
+private: false
+updated_at: '2024-06-26T15:16:24+09:00'
+id: 9567dbb4ee1091897ddc
 organization_url_name: null
 slide: false
 ignorePublish: false
