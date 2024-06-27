@@ -1,10 +1,10 @@
 ---
 title: エンジニアがエッセンシャル思考を取り入れるべき5つの理由
-private: false
 tags:
-  - エッセンシャル思考
   - ポエム
-updated_at: '2024-06-27T23:45:27+09:00'
+  - エッセンシャル思考
+private: false
+updated_at: '2024-06-27T23:58:54+09:00'
 id: c93a97e9f526cb02b4ef
 organization_url_name: null
 slide: false
