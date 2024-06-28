@@ -1,11 +1,11 @@
 ---
 title: 【初心者向け】JavaScriptテスト完全ガイド：JestとSupertestで始める7つのステップ
-private: false
 tags:
   - JavaScript
   - Jest
-  - Supertest
-updated_at: '2024-06-28T23:56:43+09:00'
+  - supertest
+private: false
+updated_at: '2024-06-29T00:06:23+09:00'
 id: ca4d43ec5e650b24968b
 organization_url_name: null
 slide: false
