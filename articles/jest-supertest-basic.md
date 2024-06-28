@@ -21,12 +21,12 @@ published: true
 JestとSupertestは、JavaScriptのテストを効率化し、信頼性を向上させるための強力なツールです。以下の理由から、これらのツールを選択する価値があります：
 
 - **Jest**：
-  - **オールインワン**：Jestは、テストランナー、アサーションライブラリ、モッキングライブラリを一体化したオールインワンのテストフレームワークです&#8203;:citation[oaicite:13]{index=13}&#8203;。
+  - **オールインワン**：Jestは、テストランナー、アサーションライブラリ、モッキングライブラリを一体化したオールインワンのテストフレームワークです。
   - **シンプルな設定**：設定が簡単で、迅速にテスト環境を整えることができます。
   - **スナップショットテスト**：コンポーネントのレンダリング結果を保存し、後で比較するスナップショットテスト機能を提供します。
 
 - **Supertest**：
-  - **HTTPリクエストのシミュレーション**：Supertestは、ExpressなどのNode.jsアプリケーションに対するHTTPリクエストをシミュレートするためのツールです&#8203;:citation[oaicite:12]{index=12}&#8203;。
+  - **HTTPリクエストのシミュレーション**：Supertestは、ExpressなどのNode.jsアプリケーションに対するHTTPリクエストをシミュレートするためのツールです;。
   - **統合テストの簡便化**：統合テストを容易にし、エンドポイントの動作を詳細に確認できます。
 
 これらのツールを使用することで、開発者は自信を持ってコードをリリースし、バグのない安定したアプリケーションを提供することができます。
@@ -36,21 +36,21 @@ JestとSupertestは、JavaScriptのテストを効率化し、信頼性を向上
 ### Jestの紹介
 Jestは、Facebookによって開発されたJavaScriptのテストフレームワークです。以下の特徴と利点があります：
 
-- **オールインワン**：Jestはテストランナー、アサーションライブラリ、モッキングライブラリを一体化したオールインワンのテストフレームワークです。これにより、追加の設定やツールを導入する必要がなく、シンプルにテストを開始できます&#8203;:citation[oaicite:11]{index=11}&#8203;。
-- **スナップショットテスト**：Jestはスナップショットテスト機能を提供します。これは、コンポーネントのレンダリング結果をスナップショットとして保存し、後で比較する機能です。UIの変更が意図したものであるかを確認するのに非常に便利です&#8203;:citation[oaicite:10]{index=10}&#8203;。
-- **クロスプラットフォーム対応**：Jestはクロスプラットフォームで動作し、様々な環境でテストを実行することができます&#8203;:citation[oaicite:9]{index=9}&#8203;。
-- **高速な実行**：Jestは、並列テスト実行やスマートなキャッシュ機能を備えており、大規模なプロジェクトでも高速にテストを実行できます&#8203;:citation[oaicite:8]{index=8}&#8203;。
+- **オールインワン**：Jestはテストランナー、アサーションライブラリ、モッキングライブラリを一体化したオールインワンのテストフレームワークです。これにより、追加の設定やツールを導入する必要がなく、シンプルにテストを開始できます。
+- **スナップショットテスト**：Jestはスナップショットテスト機能を提供します。これは、コンポーネントのレンダリング結果をスナップショットとして保存し、後で比較する機能です。UIの変更が意図したものであるかを確認するのに非常に便利です。
+- **クロスプラットフォーム対応**：Jestはクロスプラットフォームで動作し、様々な環境でテストを実行することができます。
+- **高速な実行**：Jestは、並列テスト実行やスマートなキャッシュ機能を備えており、大規模なプロジェクトでも高速にテストを実行できます。
 
 ### Supertestの紹介
 Supertestは、Node.jsのHTTPアサーションライブラリであり、Expressなどのウェブアプリケーションの統合テストに非常に役立ちます。
 
-- **HTTPリクエストのシミュレーション**：Supertestは、実際のHTTPリクエストをシミュレートすることで、サーバーのエンドポイントをテストできます。これにより、クライアントとサーバー間の通信を詳細にテストすることが可能です&#8203;:citation[oaicite:7]{index=7}&#8203;。
-- **シンプルなインターフェース**：SupertestのAPIはシンプルで直感的であり、リクエストの作成とレスポンスのアサーションを容易に行うことができます&#8203;:citation[oaicite:6]{index=6}&#8203;。
-- **Expressとの統合**：Supertestは、Expressアプリケーションと特に相性が良く、Expressのミドルウェアやルーティングを簡単にテストすることができます&#8203;:citation[oaicite:5]{index=5}&#8203;。
+- **HTTPリクエストのシミュレーション**：Supertestは、実際のHTTPリクエストをシミュレートすることで、サーバーのエンドポイントをテストできます。これにより、クライアントとサーバー間の通信を詳細にテストすることが可能です。
+- **シンプルなインターフェース**：SupertestのAPIはシンプルで直感的であり、リクエストの作成とレスポンスのアサーションを容易に行うことができます。
+- **Expressとの統合**：Supertestは、Expressアプリケーションと特に相性が良く、Expressのミドルウェアやルーティングを簡単にテストすることができます。
 
 ### なぜこれらのツールを使用するのか？
-- **統合テストの簡便さ**：JestとSupertestを組み合わせることで、ユニットテストだけでなく、統合テストやエンドツーエンドテストも容易に行うことができます。これにより、アプリケーション全体の信頼性を高めることができます&#8203;:citation[oaicite:4]{index=4}&#8203;&#8203;:citation[oaicite:3]{index=3}&#8203;。
-- **強力なモッキング機能**：Jestのモッキング機能を使用することで、外部サービスやデータベースの依存をモックし、テストの独立性を保つことができます。これにより、テストが他の要因に影響されることなく、一貫して実行できます&#8203;:citation[oaicite:2]{index=2}&#8203;&#8203;:citation[oaicite:1]{index=1}&#8203;。
+- **統合テストの簡便さ**：JestとSupertestを組み合わせることで、ユニットテストだけでなく、統合テストやエンドツーエンドテストも容易に行うことができます。これにより、アプリケーション全体の信頼性を高めることができます。
+- **強力なモッキング機能**：Jestのモッキング機能を使用することで、外部サービスやデータベースの依存をモックし、テストの独立性を保つことができます。これにより、テストが他の要因に影響されることなく、一貫して実行できます。
 
 ## 3. 環境設定
 
@@ -71,14 +71,14 @@ JestとSupertestを使用してテスト環境を設定するための手順は�
 
 3. **Jestの設定ファイルを作成**：
     プロジェクトのルートディレクトリに`jest.config.js`というファイルを作成し、以下のように設定します。
-    ```javascript
+    ```javascript:jest.config.js
     module.exports = {
       testEnvironment: 'node',
       verbose: true,
     };
     ```
 
-    - `testEnvironment: 'node'`：デフォルトの`jsdom`ではなく、Node.jsの環境でテストを実行する設定です&#8203;:citation[oaicite:0]{index=0}&#8203;。
+    - `testEnvironment: 'node'`：デフォルトの`jsdom`ではなく、Node.jsの環境でテストを実行する設定です。
     - `verbose: true`：詳細なテスト結果を表示するオプションです。
 
 ### 基本的な設定
@@ -92,7 +92,7 @@ JestとSupertestを使用してテスト環境を設定するための手順は�
 
 2. **テストスクリプトの追加**：
     `package.json`にテストスクリプトを追加します。
-    ```json
+    ```json:package.json
     "scripts": {
       "test": "jest"
     }
@@ -100,7 +100,7 @@ JestとSupertestを使用してテスト環境を設定するための手順は�
 
 3. **サンプルテストの作成**：
     テストディレクトリにサンプルテストファイルを作成します。例えば、`tests/sample.test.js`として以下の内容を追加します。
-    ```javascript
+    ```javascript:tests/sample.test.js
     const request = require('supertest');
     const express = require('express');
 
@@ -141,7 +141,7 @@ JestとSupertestを使用してテスト環境を設定するための手順は�
 
 テスト対象の関数 (sum.js)
 
-```javascript
+```javascript:sum.js
 function sum(a, b) {
   return a + b;
 }
@@ -150,7 +150,7 @@ module.exports = sum;
 
 ユニットテスト (sum.test.js)
 
-```javascript
+```javascript:sum.test.js
 const sum = require('./sum');
 
 test('adds 1 + 2 to equal 3', () => {
@@ -165,7 +165,7 @@ Jestのモック機能を使用すると、外部モジュールや依存関係�
 
 モジュールのモックの例 (fetchData.js)
 
-```javascript
+```javascript:fetchData.js
 const axios = require('axios');
 
 async function fetchData(url) {
@@ -177,7 +177,7 @@ module.exports = fetchData;
 
 モックを使用したテスト (fetchData.test.js)
 
-```javascript
+```javascript:fetchData.test.js
 const fetchData = require('./fetchData');
 const axios = require('axios');
 jest.mock('axios');
@@ -192,13 +192,13 @@ test('fetches successfully data from an API', async () => {
 ```
 
 jest.mock('axios')を使用して、axiosモジュールをモックします。
-axios.get.mockResolvedValueを使って、axiosのgetメソッドが特定の値を返すように設定します​ (MarketSplash)​​ (TechBii)​。
+axios.get.mockResolvedValueを使って、axiosのgetメソッドが特定の値を返すように設定します​​。
 非同期コードのテスト
 非同期関数のテストもJestでは非常に簡単です。async/awaitを使用して、非同期コードのテストを直感的に書くことができます。
 
 非同期関数のテストの例 (asyncFunction.js)
 
-```javascript
+```javascript:asyncFunction.js
 async function fetchData() {
   return 'Hello, world!';
 }
@@ -207,7 +207,7 @@ module.exports = fetchData;
 
 非同期関数のテスト (asyncFunction.test.js)
 
-```javascript
+```javascript:asyncFunction.test.js
 const fetchData = require('./asyncFunction');
 
 test('fetches data', async () => {
@@ -217,7 +217,7 @@ test('fetches data', async () => {
 ```
 
 非同期関数をテストするために、test関数にasyncを付け、非同期関数の結果を待機 (await) します。
-非同期関数の結果が期待される値と一致するかを確認します​ (MarketSplash)​。
+非同期関数の結果が期待される値と一致するかを確認します​。
 次のセクションでは、Expressアプリケーションのテストについて詳しく説明します。具体的なAPIエンドポイントのテスト方法やモックデータベースの使用方法を見ていきましょう。
 
 ## 5. Expressアプリケーションのテスト
@@ -226,7 +226,7 @@ Supertestを使うことで、ExpressアプリケーションのAPIエンドポ�
 
 アプリケーション設定 (app.js)
 
-```javascript
+```javascript:app.js
 const express = require('express');
 const app = express();
 
@@ -257,7 +257,7 @@ module.exports = app;
 
 テストファイル (app.test.js)
 
-```javascript
+```javascript:app.test.js
 const request = require('supertest');
 const app = require('./app');
 
@@ -290,14 +290,14 @@ describe('User API', () => {
 });
 ```
 
-このテストコードでは、各HTTPメソッドのエンドポイントをテストしています。supertestを使用して、エンドポイントにリクエストを送り、レスポンスのステータスコードと内容を検証します​ (DEV Community)​​ (Velotio)​。
+このテストコードでは、各HTTPメソッドのエンドポイントをテストしています。supertestを使用して、エンドポイントにリクエストを送り、レスポンスのステータスコードと内容を検証します​。
 
 モックデータベースの使用
 テスト環境でデータベースに依存することなく、モックデータベースを使用することで、テストの独立性を高めることができます。ここでは、MongoMemoryServerを使用してMongoDBをモックする方法を紹介します。
 
 モックデータベース設定 (bootstrap.js)
 
-```javascript
+```javascript:bootstrap.js
 const mongoose = require('mongoose');
 const { MongoMemoryServer } = require('mongodb-memory-server');
 
@@ -326,7 +326,7 @@ afterEach(async () => {
 
 テストファイル (user.test.js)
 
-```javascript
+```javascript:user.test.js
 const request = require('supertest');
 const app = require('../app');
 const User = require('../models/user');
@@ -352,7 +352,7 @@ describe('User API with MongoMemoryServer', () => {
 });
 ```
 
-この方法では、MongoMemoryServerを使用してMongoDBのインスタンスをメモリ上に立ち上げ、テストデータを格納します。これにより、実際のデータベースを使用することなく、テストが可能になります​ (DEV Community)​。
+この方法では、MongoMemoryServerを使用してMongoDBのインスタンスをメモリ上に立ち上げ、テストデータを格納します。これにより、実際のデータベースを使用することなく、テストが可能になります​。
 
 次のセクションでは、テストのベストプラクティスについて詳しく説明します。テストの整理、明確な命名、独立性の維持など、効果的なテスト戦略を見ていきましょう。
 
@@ -364,7 +364,7 @@ describe('User API with MongoMemoryServer', () => {
 
 describeブロックを使用したグループ化の例
 
-```javascript
+```javascript:user.test.js
 describe('User Routes', () => {
   test('GET /users - success', async () => {
     // テストコード
@@ -376,25 +376,25 @@ describe('User Routes', () => {
 });
 ```
 
-describeブロックを使用することで、関連するテストケースを一つのグループとしてまとめることができます。これにより、テストレポートが見やすくなり、特定の機能に関連するすべてのテストを簡単に見つけることができます​ (Velotio)​​ (MarketSplash)​。
+describeブロックを使用することで、関連するテストケースを一つのグループとしてまとめることができます。これにより、テストレポートが見やすくなり、特定の機能に関連するすべてのテストを簡単に見つけることができます​。
 明確な命名
 テストケースには、何をテストしているのかを明確に示す名前を付けることが重要です。名前が具体的であればあるほど、テストの目的がわかりやすくなります。
 
 明確なテスト名の例
 
-```javascript
+```javascript:user.test.js
 test('responds with 200 status and user data when valid ID is provided', async () => {
   // テストコード
 });
 ```
 
-テスト名は、そのテストが何を検証しているのかを明確に表現します。これにより、テストの内容を一目で理解することができます​ (Velotio)​。
+テスト名は、そのテストが何を検証しているのかを明確に表現します。これにより、テストの内容を一目で理解することができます​。
 テストの独立性
 各テストケースは他のテストケースに依存しないように設計することが重要です。これにより、一つのテストが失敗しても他のテストに影響を与えることがなくなります。
 
 独立したテストの例
 
-```javascript
+```javascript:user.test.js
 test('creates a new user', async () => {
   // 新しいユーザーを作成するテスト
 });
@@ -404,7 +404,7 @@ test('updates an existing user', async () => {
 });
 ```
 
-各テストケースは独立して実行できるように設計されており、特定の順序で実行されることを前提としていません。これにより、テストの信頼性が向上します​ (Velotio)​​ (DEV Community)​。
+各テストケースは独立して実行できるように設計されており、特定の順序で実行されることを前提としていません。これにより、テストの信頼性が向上します​​。
 テストファイルの配置
 テストファイルは、テスト対象のコードと同じディレクトリに配置するか、専用のテストディレクトリにまとめることが推奨されます。これにより、テストと実装コードを簡単に関連付けることができます。
 
@@ -419,7 +419,7 @@ routes/user.js のテストファイルを同じディレクトリに配置す�
 
 新機能が追加された場合、それに対応する新しいテストを作成します。
 使用されなくなった機能に対するテストを削除し、テストコードを整理します。
-これらのベストプラクティスを遵守することで、テストの信頼性と効率性が向上し、アプリケーションの品質を高めることができます​ (Velotio)​​ (DEV Community)​。
+これらのベストプラクティスを遵守することで、テストの信頼性と効率性が向上し、アプリケーションの品質を高めることができます​​。
 
 次のセクションでは、テスト中に遭遇する一般的な問題とそのトラブルシューティング方法について詳しく説明します。
 
@@ -432,13 +432,13 @@ JestとSupertestを使用してテストを実行する際、開発者はさま�
 タイムアウトの解決策
 Jestのデフォルトのタイムアウトは5秒ですが、これを変更することができます。
 
-```javascript
+```javascript:asyncFunction.test.js
 test('async test with increased timeout', async () => {
   // 非同期テストのロジック
 }, 10000); // タイムアウトを10秒に設定
 ```
 
-この例では、テストのタイムアウトを10秒に設定しています。複雑な非同期操作の場合は、このようにしてタイムアウトを延長することができます​ (DEV Community)​。
+この例では、テストのタイムアウトを10秒に設定しています。複雑な非同期操作の場合は、このようにしてタイムアウトを延長することができます​。
 外部依存関係のモック
 テストが外部サービスやAPIに依存している場合、これらをモックすることでテストの信頼性を向上させることができます。
 
@@ -459,7 +459,7 @@ test('mocks an API call', async () => {
 });
 ```
 
-jest.mock('axios')を使用して、axiosモジュールをモックします。これにより、テスト中に実際のAPIコールが発生しなくなり、安定したテスト結果が得られます​ (TechBii)​​ (MarketSplash)​。
+jest.mock('axios')を使用して、axiosモジュールをモックします。これにより、テスト中に実際のAPIコールが発生しなくなり、安定したテスト結果が得られます​。
 環境変数の取り扱い
 テスト中に環境変数が正しく設定されていないと、予期しない動作が発生することがあります。これを防ぐために、テスト用の環境変数を設定します。
 
@@ -473,7 +473,7 @@ test('uses test environment', () => {
 });
 ```
 
-テストの冒頭で環境変数を設定し、その環境でテストが実行されるようにします​ (MarketSplash)​。
+テストの冒頭で環境変数を設定し、その環境でテストが実行されるようにします​。
 データベース接続の問題
 テスト中にデータベース接続の問題が発生することがあります。これには、接続のタイムアウトやデータの一貫性の問題が含まれます。
 
@@ -494,7 +494,7 @@ test('database connection test', async () => {
 });
 ```
 
-テストの前後にデータベースの接続と切断を適切に行い、接続が安定していることを確認します​ (DEV Community)​。
+テストの前後にデータベースの接続と切断を適切に行い、接続が安定していることを確認します​。
 モックのクリアリング
 複数のテストケースで同じモックが使用されていると、モックの状態が他のテストケースに影響を与えることがあります。各テストの後にモックをクリアすることで、これを防ぎます。
 
@@ -514,7 +514,7 @@ test('second test', () => {
 });
 ```
 
-jest.clearAllMocks()を使用して、各テストの後にすべてのモックをクリアします。これにより、テストが他のモックに影響されることなく独立して実行されます​ (TechBii)​。
+jest.clearAllMocks()を使用して、各テストの後にすべてのモックをクリアします。これにより、テストが他のモックに影響されることなく独立して実行されます​。
 これらのトラブルシューティングの方法を活用することで、JestとSupertestを使用したテストの安定性と信頼性を向上させることができます。次のセクションでは、記事のまとめと次のステップについて説明します。
 
 ## 8. まとめと次のステップ
