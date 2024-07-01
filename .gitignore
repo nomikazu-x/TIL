@@ -4,3 +4,4 @@ node_modules
 .idea
 .vscode
 credentials.json
+schedule_task.sh
