@@ -1,5 +1,6 @@
 #!/bin/bash
 
+git remote set-url origin git@github.com:kazuki-nomiya/til.git
 git pull
 git add .
 git commit -m "save: zenn"
