@@ -1,7 +1,7 @@
 #!/bin/bash
 
-git remote set-url origin git@github.com:nomikazu-x/TIL.git
-git pull
+# git remote set-url origin git@github.com:nomikazu-x/TIL.git
+# git pull
 git add .
 git commit -m "save: zenn"
 
