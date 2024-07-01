@@ -1,12 +1,12 @@
 ---
 title: Homebrewで管理されているすべてのサービスを一覧表示する方法
-private: false
 tags:
-  - Homebrew
-  - MacOS
   - Terminal
-updated_at: '2024-07-01T03:38:17.571Z'
-id: null
+  - homebrew
+  - macOS
+private: false
+updated_at: '2024-07-01T12:38:51+09:00'
+id: 734e4744560c7335ce31
 organization_url_name: null
 slide: false
 ignorePublish: false
