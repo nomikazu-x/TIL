@@ -1,0 +1,33 @@
+---
+title: Homebrewの環境変数を設定する方法
+emoji: 🤖
+type: tech # tech: 技術記事 / idea: アイデア
+topics: 
+  - Homebrew
+  - MacOS
+  - Terminal
+published: true
+---
+
+## Homebrewの環境変数のデフォルト値
+`brew` CLI では、さまざまな環境変数が設定されています。これらのデフォルト値一覧は、[ドキュメントの環境セクション](https://docs.brew.sh/Manpage#environment)で確認できます。
+
+## 環境変数の変更方法
+これらのデフォルト値を変更したい場合、あなたの環境に直接設定できます。
+
+```bash
+$ set HOMEBREW_API_AUTO_UPDATE_SECS=450
+```
+または、専用のenvファイルに環境変数を設定することもできます。ファイルの場所はいくつかありますが、 `$HOME/.homebrew/brew.env`（例：~/.homebrew/brew.env）を使用することをお勧めします。
+
+```~/.homebrew/brew.env
+HOMEBREW_API_AUTO_UPDATE_SECS=450
+```
+
+このファイルとディレクトリは存在しない可能性があるので、初めて設定する場合は以下のコマンドで作成してください。
+
+```bash
+$ mkdir $HOME/.homebrew
+$ touch $HOME/.homebrew/brew.env
+```
+
