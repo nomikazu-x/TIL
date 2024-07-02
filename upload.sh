@@ -3,7 +3,7 @@
 git remote set-url origin git@github.com:nomikazu-x/TIL.git
 git pull
 git add .
-git commit -m "save: zenn"
+git commit -m "zennを保存"
 
 # 1. .md形式の変更があったファイルのパスとファイル名を取得
 CHANGED_FILES=$(git diff-tree --no-commit-id --name-only -r HEAD | grep '\.md$')
@@ -37,5 +37,5 @@ done
 
 # 最後にgit hubにあげる
 git add .
-git commit -m "post: zenn, qiita"
+git commit -m "zenn, qiitaを投稿"
 git push
