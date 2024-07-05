@@ -1,11 +1,11 @@
 ---
 title: RailsのHostAuthorizationによってELBのヘルスチェックがhealthyにならない
+private: false
 tags:
   - Ruby
   - Rails
   - AWS
-  - elb
-private: false
+  - ELB
 updated_at: '2024-06-25T23:39:22+09:00'
 id: 6eae4ac6e5ffb886fb08
 organization_url_name: null
@@ -25,7 +25,7 @@ Railsの`HostAuthorization`を利用し、`/api/health_check`というパスでA
 ## 原因
 
 Railsの設定は下記のようになっていました。
-![](https://raw.githubusercontent.com/nomikazu-x/post-zenn-qiita/master/images/prettier-plugin-astro-organize-imports/alb-esc-nginx-rails-rds.jpg)
+![](https://raw.githubusercontent.com/nomikazu-x/TIL/master/images/prettier-plugin-astro-organize-imports/alb-esc-nginx-rails-rds.jpg)
 
 ```ruby:environments/production.rb
 config.hosts << 'base_domain.com'
@@ -48,3 +48,11 @@ config.host_authorization = {
 ## 参考
 - [Rails6 で LoadBalancer からのヘルスチェックが 403 にならないようにする](https://qiita.com/takahiro-nakayama/items/33333333333333333333)
 - [Railsガイド 3.4 ミドルウェアを設定する](https://railsguides.jp/configuring.html#configuring-middleware)
+
+## フリーランスエンジニア必見！
+
+最後に、フリーランスエンジニアの方にご案内です。
+あなたに今だけご紹介できる限定の案件があります！
+
+気になる方は公式ラインの追加をお願いします👇
+https://bit.ly/3xLrLGw

@@ -1,10 +1,10 @@
 ---
 title: zshでHeredoc構文を使ってコマンド引数を渡す方法
-tags:
-  - Bash
-  - Zsh
-  - Terminal
 private: false
+tags:
+  - zsh
+  - bash
+  - Terminal
 updated_at: '2024-07-02T20:00:41+09:00'
 id: 216b969a41d87ba1d267
 organization_url_name: null
@@ -60,3 +60,11 @@ EOF
 ```
 
 そして、これを`sqlite-utils`コマンドの引数として渡すために、`"$(cat ...)"`を使います。この`"`があることで、zshやbashがその入力内のトークンを別々の引数として扱わないようにしています。
+
+## フリーランスエンジニア必見！
+
+最後に、フリーランスエンジニアの方にご案内です。
+あなたに今だけご紹介できる限定の案件があります！
+
+気になる方は公式ラインの追加をお願いします👇
+https://bit.ly/3xLrLGw

@@ -1,10 +1,10 @@
 ---
 title: 【初心者向け】JavaScriptテスト完全ガイド：JestとSupertestで始める7つのステップ
+private: false
 tags:
   - JavaScript
   - Jest
-  - supertest
-private: false
+  - Supertest
 updated_at: '2024-06-29T00:15:08+09:00'
 id: ca4d43ec5e650b24968b
 organization_url_name: null
@@ -535,3 +535,10 @@ jest.clearAllMocks()を使用して、各テストの後にすべてのモック
 
 **Happy Testing!**
 
+## フリーランスエンジニア必見！
+
+最後に、フリーランスエンジニアの方にご案内です。
+あなたに今だけご紹介できる限定の案件があります！
+
+気になる方は公式ラインの追加をお願いします👇
+https://bit.ly/3xLrLGw

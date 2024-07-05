@@ -1,10 +1,10 @@
 ---
 title: GitHubリポジトリの説明に絵文字を追加する方法
-tags:
-  - Git
-  - GitHub
-  - emoji
 private: false
+tags:
+  - GitHub
+  - Git
+  - emoji
 updated_at: '2024-07-02T09:00:44+09:00'
 id: 779d264552e87ce89065
 organization_url_name: null
@@ -42,3 +42,11 @@ GitHubリポジトリの説明に絵文字を追加するのはとても簡単�
 > ✨ This repository contains my TIL (Today I Learned) entries. ✨
 
 この方法で、リポジトリの説明をカスタマイズし、より視覚的に魅力的なものにすることができます！
+
+## フリーランスエンジニア必見！
+
+最後に、フリーランスエンジニアの方にご案内です。
+あなたに今だけご紹介できる限定の案件があります！
+
+気になる方は公式ラインの追加をお願いします👇
+https://bit.ly/3xLrLGw

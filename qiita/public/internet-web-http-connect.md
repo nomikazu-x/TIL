@@ -1,10 +1,10 @@
 ---
 title: 【基本情報技術者】Webの仕組みとHTTP通信について解説
-tags:
-  - HTTP
-  - Web
-  - 基本情報技術者
 private: false
+tags:
+  - 基本情報技術者
+  - http
+  - Web
 updated_at: '2024-06-25T22:19:53+09:00'
 id: 52c4990aa19a969025f2
 organization_url_name: null
@@ -121,3 +121,11 @@ IPアドレスだと分かりにくいため、DNSがIPアドレスとドメイ�
 
 参考: キタミ式イラストIT塾基本情報技術者
 https://amzn.to/4eBjV2S
+
+## フリーランスエンジニア必見！
+
+最後に、フリーランスエンジニアの方にご案内です。
+あなたに今だけご紹介できる限定の案件があります！
+
+気になる方は公式ラインの追加をお願いします👇
+https://bit.ly/3xLrLGw

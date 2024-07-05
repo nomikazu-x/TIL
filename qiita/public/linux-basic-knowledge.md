@@ -1,10 +1,10 @@
 ---
 title: 徹底解説！Linuxに関する基礎知識とコマンド
+private: false
 tags:
   - Linux
-  - macOS
+  - MacOS
   - 基礎
-private: false
 updated_at: '2024-06-26T15:16:22+09:00'
 id: 0b80ffdae4e7f31eed96
 organization_url_name: null
@@ -857,3 +857,11 @@ NAME
 参考
 
 [もう怖くないLinuxコマンド。手を動かしながらLinuxコマンドラインを5日間で身に付けよう](https://click.linksynergy.com/deeplink?id=j5IiBfvcKwo&mid=47984&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Funscared_linux%2F%3FcouponCode%3DST6MT42324)
+
+## フリーランスエンジニア必見！
+
+最後に、フリーランスエンジニアの方にご案内です。
+あなたに今だけご紹介できる限定の案件があります！
+
+気になる方は公式ラインの追加をお願いします👇
+https://bit.ly/3xLrLGw

@@ -1,10 +1,10 @@
 ---
 title: rails sが起動しなくなった
+private: false
 tags:
   - Ruby
   - Rails
-  - puma
-private: false
+  - Puma
 updated_at: '2024-06-25T23:51:14+09:00'
 id: 4e8fdab4ef696421adf5
 organization_url_name: null
@@ -91,3 +91,11 @@ Settings are listed in order of priority. The top value will be used.
 Set for the current user (/Users/xxxx/.bundle/config): "without"
 ```
 `–without`が無くなり、`rails s`も動くようになりました！
+
+## フリーランスエンジニア必見！
+
+最後に、フリーランスエンジニアの方にご案内です。
+あなたに今だけご紹介できる限定の案件があります！
+
+気になる方は公式ラインの追加をお願いします👇
+https://bit.ly/3xLrLGw

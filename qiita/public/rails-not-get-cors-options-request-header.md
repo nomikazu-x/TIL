@@ -1,12 +1,12 @@
 ---
 title: CORS設定でOPTIONSリクエストとヘッダが取得できない
+private: false
 tags:
   - Ruby
   - Rails
   - CORS
-  - Vue.js
   - Nuxt
-private: false
+  - Vue
 updated_at: '2024-06-26T00:03:11+09:00'
 id: 07a27335cac369c5e3e7
 organization_url_name: null
@@ -59,3 +59,11 @@ Nuxt.jsで、undefinedになっていたのが取得できるようになりま�
 ```
 console.log(response.headers['access-token'])
 ```
+
+## フリーランスエンジニア必見！
+
+最後に、フリーランスエンジニアの方にご案内です。
+あなたに今だけご紹介できる限定の案件があります！
+
+気になる方は公式ラインの追加をお願いします👇
+https://bit.ly/3xLrLGw

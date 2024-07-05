@@ -1,12 +1,12 @@
 ---
 title: 徹底解説！SQLの超基礎入門
+private: false
 tags:
-  - MySQL
   - SQL
+  - MySQL
   - PostgreSQL
   - SQLite
   - 基礎
-private: false
 updated_at: '2024-06-26T15:16:24+09:00'
 id: 9567dbb4ee1091897ddc
 organization_url_name: null
@@ -1324,3 +1324,11 @@ GROUP BY GROUPING SETS(shohin_bunrui, torokubi);
 
 ## 参考
 https://af.moshimo.com/af/c/click?a_id=4491981&p_id=170&pc_id=185&pl_id=4062&url=https%3A%2F%2Fwww.amazon.co.jp%2Fgp%2Fsearch%3Fie%3DUTF8%26keywords%3D%25E3%2582%25BC%25E3%2583%25AD%25E3%2581%258B%25E3%2582%2589%25E3%2581%25AF%25E3%2581%2598%25E3%2582%2581%25E3%2582%258B%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2583%2599%25E3%2583%25BC%25E3%2582%25B9
+
+## フリーランスエンジニア必見！
+
+最後に、フリーランスエンジニアの方にご案内です。
+あなたに今だけご紹介できる限定の案件があります！
+
+気になる方は公式ラインの追加をお願いします👇
+https://bit.ly/3xLrLGw
