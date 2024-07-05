@@ -1,13 +1,13 @@
 ---
 title: CORS設定でOPTIONSリクエストとヘッダが取得できない
-private: false
 tags:
   - Ruby
   - Rails
   - CORS
+  - Vue.js
   - Nuxt
-  - Vue
-updated_at: '2024-06-26T00:03:11+09:00'
+private: false
+updated_at: '2024-07-05T20:01:31+09:00'
 id: 07a27335cac369c5e3e7
 organization_url_name: null
 slide: false

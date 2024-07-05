@@ -1,10 +1,10 @@
 ---
 title: Rubyで配列内のハッシュで同じキーの値を合算(inject、merge)
-private: false
 tags:
   - Ruby
   - Rails
-updated_at: '2024-06-26T00:06:44+09:00'
+private: false
+updated_at: '2024-07-05T20:01:32+09:00'
 id: b01299cada90590dc926
 organization_url_name: null
 slide: false

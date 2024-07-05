@@ -1,10 +1,10 @@
 ---
 title: zshプロンプトのカスタマイズ
-private: false
 tags:
-  - zsh
+  - Zsh
   - Terminal
-updated_at: '2024-07-03T20:00:42+09:00'
+private: false
+updated_at: '2024-07-05T20:01:31+09:00'
 id: 5e980f13ca98436c8888
 organization_url_name: null
 slide: false

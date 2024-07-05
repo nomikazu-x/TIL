@@ -1,12 +1,12 @@
 ---
 title: Rspec WrongScopeError発生
-private: false
 tags:
   - Ruby
   - Rails
-  - Rspec
-updated_at: '2024-07-05T11:00:42.561Z'
-id: null
+  - RSpec
+private: false
+updated_at: '2024-07-05T20:01:31+09:00'
+id: 8517d3b7eb8889fa8ff5
 organization_url_name: null
 slide: false
 ignorePublish: false

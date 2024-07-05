@@ -1,11 +1,11 @@
 ---
 title: 徹底解説！Linuxに関する基礎知識とコマンド
-private: false
 tags:
   - Linux
-  - MacOS
+  - macOS
   - 基礎
-updated_at: '2024-06-26T15:16:22+09:00'
+private: false
+updated_at: '2024-07-05T20:01:32+09:00'
 id: 0b80ffdae4e7f31eed96
 organization_url_name: null
 slide: false

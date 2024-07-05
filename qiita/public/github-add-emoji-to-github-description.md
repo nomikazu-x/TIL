@@ -1,11 +1,11 @@
 ---
 title: GitHubリポジトリの説明に絵文字を追加する方法
-private: false
 tags:
-  - GitHub
   - Git
+  - GitHub
   - emoji
-updated_at: '2024-07-02T09:00:44+09:00'
+private: false
+updated_at: '2024-07-05T20:01:31+09:00'
 id: 779d264552e87ce89065
 organization_url_name: null
 slide: false

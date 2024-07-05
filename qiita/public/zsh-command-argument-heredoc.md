@@ -1,11 +1,11 @@
 ---
 title: zshでHeredoc構文を使ってコマンド引数を渡す方法
-private: false
 tags:
-  - zsh
-  - bash
+  - Bash
+  - Zsh
   - Terminal
-updated_at: '2024-07-02T20:00:41+09:00'
+private: false
+updated_at: '2024-07-05T20:01:31+09:00'
 id: 216b969a41d87ba1d267
 organization_url_name: null
 slide: false

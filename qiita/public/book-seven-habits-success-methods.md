@@ -1,11 +1,11 @@
 ---
 title: エンジニアのための「7つの習慣」｜成功を引き寄せる具体的な実践法7選
-private: false
 tags:
+  - ポエム
   - エンジニア
   - 7つの習慣
-  - ポエム
-updated_at: '2024-07-04T20:00:44+09:00'
+private: false
+updated_at: '2024-07-05T20:01:32+09:00'
 id: df97e103544b4ec045b7
 organization_url_name: null
 slide: false

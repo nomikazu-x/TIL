@@ -1,13 +1,13 @@
 ---
 title: S3バケットにCORSポリシーを追加したい
-private: false
 tags:
   - AWS
   - S3
+  - Security
   - CORS
-  - セキュリティ
-updated_at: '2024-07-05T11:00:09.967Z'
-id: null
+private: false
+updated_at: '2024-07-05T20:01:31+09:00'
+id: 4ecf1c8b251f30e4e0b3
 organization_url_name: null
 slide: false
 ignorePublish: false
