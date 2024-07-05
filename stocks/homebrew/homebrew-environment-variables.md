@@ -31,3 +31,10 @@ $ mkdir $HOME/.homebrew
 $ touch $HOME/.homebrew/brew.env
 ```
 
+## フリーランスエンジニア必見！
+
+最後に、フリーランスエンジニアの方にご案内です。
+あなたに今だけご紹介できる限定の案件があります！
+
+気になる方は公式ラインの追加をお願いします👇
+https://bit.ly/3xLrLGw

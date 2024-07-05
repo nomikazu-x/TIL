@@ -45,3 +45,11 @@ end
 参考：https://docs.ruby-lang.org/ja/latest/method/Hash/i/merge.html
 
 injectで配列内の要素を一つずつ取り出して、mergeにより同一キーをもつ値を結合していく処理ができました！
+
+## フリーランスエンジニア必見！
+
+最後に、フリーランスエンジニアの方にご案内です。
+あなたに今だけご紹介できる限定の案件があります！
+
+気になる方は公式ラインの追加をお願いします👇
+https://bit.ly/3xLrLGw

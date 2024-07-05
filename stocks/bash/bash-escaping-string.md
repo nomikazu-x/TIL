@@ -29,3 +29,11 @@ bash: # This string 'has single' "and double" quotes and a $: command not found
 - これは、`string`が`""`である場合の`!string`に相当し、直近のコマンドを生成
 
 **つまり、`!!`と同じように動作します**
+
+## フリーランスエンジニア必見！
+
+最後に、フリーランスエンジニアの方にご案内です。
+あなたに今だけご紹介できる限定の案件があります！
+
+気になる方は公式ラインの追加をお願いします👇
+https://bit.ly/3xLrLGw

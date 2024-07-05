@@ -45,3 +45,11 @@ config.host_authorization = {
 ## 参考
 - [Rails6 で LoadBalancer からのヘルスチェックが 403 にならないようにする](https://qiita.com/takahiro-nakayama/items/33333333333333333333)
 - [Railsガイド 3.4 ミドルウェアを設定する](https://railsguides.jp/configuring.html#configuring-middleware)
+
+## フリーランスエンジニア必見！
+
+最後に、フリーランスエンジニアの方にご案内です。
+あなたに今だけご紹介できる限定の案件があります！
+
+気になる方は公式ラインの追加をお願いします👇
+https://bit.ly/3xLrLGw

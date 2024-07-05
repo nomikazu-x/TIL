@@ -960,3 +960,11 @@ TypeScriptはJavaScriptを拡張する強力なツールであり、大規模な
 
 ## 補足：おすすめの教材
 [JavaScriptエンジニアのためのハンズオンで学ぶTypeScript徹底入門 2024年最新版](https://click.linksynergy.com/deeplink?id=j5IiBfvcKwo&mid=47984&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fts-for-js-developers%2F%3FcouponCode%3DKEEPLEARNING)
+
+## フリーランスエンジニア必見！
+
+最後に、フリーランスエンジニアの方にご案内です。
+あなたに今だけご紹介できる限定の案件があります！
+
+気になる方は公式ラインの追加をお願いします👇
+https://bit.ly/3xLrLGw

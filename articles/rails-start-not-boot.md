@@ -88,3 +88,11 @@ Settings are listed in order of priority. The top value will be used.
 Set for the current user (/Users/xxxx/.bundle/config): "without"
 ```
 `–without`が無くなり、`rails s`も動くようになりました！
+
+## フリーランスエンジニア必見！
+
+最後に、フリーランスエンジニアの方にご案内です。
+あなたに今だけご紹介できる限定の案件があります！
+
+気になる方は公式ラインの追加をお願いします👇
+https://bit.ly/3xLrLGw

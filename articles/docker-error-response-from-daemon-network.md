@@ -157,3 +157,11 @@ networks:
 **参考資料**
 - [Docker公式ドキュメント](https://docs.docker.com/)
 - [関連するQiita記事](https://qiita.com/nagataichiko/items/6c9dd3eb801e7682b9f9)
+
+## フリーランスエンジニア必見！
+
+最後に、フリーランスエンジニアの方にご案内です。
+あなたに今だけご紹介できる限定の案件があります！
+
+気になる方は公式ラインの追加をお願いします👇
+https://bit.ly/3xLrLGw

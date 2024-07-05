@@ -402,3 +402,11 @@ aws lambda update-function-configuration \
 ## StarletteやFastAPIにも対応可能
 
 MangumはASGIアプリに対応しているため、[Starlette](https://www.starlette.io/)や[FastAPI](https://fastapi.tiangolo.com/)で作成されたアプリも同様に動作します。
+
+## フリーランスエンジニア必見！
+
+最後に、フリーランスエンジニアの方にご案内です。
+あなたに今だけご紹介できる限定の案件があります！
+
+気になる方は公式ラインの追加をお願いします👇
+https://bit.ly/3xLrLGw
