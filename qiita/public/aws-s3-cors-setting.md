@@ -1,11 +1,11 @@
 ---
 title: S3バケットにCORSポリシーを追加したい
+private: false
 tags:
   - AWS
   - S3
-  - Security
   - CORS
-private: false
+  - セキュリティ
 updated_at: '2024-07-05T20:01:31+09:00'
 id: 4ecf1c8b251f30e4e0b3
 organization_url_name: null
@@ -26,7 +26,7 @@ Amazon S3バケットを公開ウェブサイトとして設定する場合、�
 ```sql
 s3-credentials set-cors-policy my-cors-bucket \
   --allowed-method GET \
-  --allowed-origin https://simonwillison.net/
+  --allowed-origin https://hogehoge.net/
 ```
 
 このコマンドの詳細なドキュメントはこちらにあります。
@@ -45,7 +45,7 @@ s3-credentials set-cors-policy my-cors-bucket \
             "GET"
         ],
         "AllowedOrigins": [
-            "https://simonwillison.net/"
+            "https://hogehoge.net/"
         ],
         "ExposeHeaders": []
     }
@@ -58,8 +58,8 @@ s3-credentials set-cors-policy my-cors-bucket \
 AllowedOriginsキーは興味深いものです。これは、受信リクエストのOriginヘッダーを検査し、そのオリジンがリスト内の値のいずれかと一致する場合にCORSヘッダーを返すことで動作します。
 
 ```
-~ % curl -i 'http://static.simonwillison.net.s3-website-us-west-1.amazonaws.com/static/2022/photoswipe/photoswipe-lightbox.esm.js' \
-  -H "Origin: https://simonwillison.net" | head -n 20
+~ % curl -i 'http://hogehoge.net.s3-website-us-west-1.amazonaws.com/static/2022/photoswipe/photoswipe-lightbox.esm.js' \
+  -H "Origin: https://hogehoge.net" | head -n 20
 -x-amz-request-id: 4YY7ZBCVJ167XCR9
  Date: Tue, 04 Jan 2022 21:02:44 GMT
 -Access-Control-Allow-Origin: *
@@ -70,7 +70,7 @@ AllowedOriginsキーは興味深いものです。これは、受信リクエス
 :Content-Type: text/javascript
 -Server: AmazonS3
 
-~ % curl -i 'http://static.simonwillison.net.s3-website-us-west-1.amazonaws.com/static/2022/photoswipe/photoswipe-lightbox.esm.js' | head -n 20
+~ % curl -i 'http://hogehoge.net.s3-website-us-west-1.amazonaws.com/static/2022/photoswipe/photoswipe-lightbox.esm.js' | head -n 20
 x-amz-request-id: MPD20P9P3X45BR1Q
 Date: Tue, 04 Jan 2022 21:02:48 GMT
 Last-Modified: Tue, 04 Jan 2022 20:10:26 GMT
