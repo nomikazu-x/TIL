@@ -1,12 +1,12 @@
 ---
 title: GitHubの差分から空白のみの変更を除外して確認する方法
-private: false
 tags:
   - Git
   - GitHub
   - 基礎
-updated_at: '2024-07-06T11:00:11.206Z'
-id: null
+private: false
+updated_at: '2024-07-06T20:00:43+09:00'
+id: ff8e8069a6777379dfb5
 organization_url_name: null
 slide: false
 ignorePublish: false
