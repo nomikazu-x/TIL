@@ -1,12 +1,12 @@
 ---
 title: PythonをLambda関数としてデプロイする方法
-private: false
 tags:
-  - AWS
-  - Lambda
   - Python
-updated_at: '2024-07-07T11:00:09.263Z'
-id: null
+  - AWS
+  - lambda
+private: false
+updated_at: '2024-07-07T20:00:43+09:00'
+id: e31eb31d7a02cd3a49db
 organization_url_name: null
 slide: false
 ignorePublish: false
