@@ -1,11 +1,11 @@
 ---
 title: AzureFunctionを使用してサブドメインへのすべてのトラフィックを処理する方法
-private: false
 tags:
   - Azure
-  - AzureFunction
-updated_at: '2024-07-09T11:00:11.875Z'
-id: null
+  - azurefunction
+private: false
+updated_at: '2024-07-09T20:00:46+09:00'
+id: de9d96ba4e923bc6c55a
 organization_url_name: null
 slide: false
 ignorePublish: false
