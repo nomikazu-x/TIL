@@ -1,12 +1,12 @@
 ---
 title: Homebrewの環境変数を設定する方法
-private: false
 tags:
-  - Homebrew
-  - MacOS
   - Terminal
-updated_at: '2024-07-11T11:00:09.452Z'
-id: null
+  - homebrew
+  - macOS
+private: false
+updated_at: '2024-07-11T20:00:41+09:00'
+id: b87a814d1db03fc9750d
 organization_url_name: null
 slide: false
 ignorePublish: false
