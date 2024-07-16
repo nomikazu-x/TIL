@@ -1,12 +1,12 @@
 ---
 title: 【MySQL】Safe Updates モードでデータベースに接続する方法
-private: false
 tags:
   - Linux
-  - MacOS
+  - macOS
   - 基礎
-updated_at: '2024-07-16T13:15:31.227Z'
-id: null
+private: false
+updated_at: '2024-07-16T22:16:07+09:00'
+id: 44704f8858953a82d977
 organization_url_name: null
 slide: false
 ignorePublish: false
