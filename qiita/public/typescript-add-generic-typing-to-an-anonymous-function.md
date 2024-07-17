@@ -1,10 +1,10 @@
 ---
 title: 無名関数にジェネリック型を追加する方法
-private: false
 tags:
   - TypeScript
-updated_at: '2024-07-17T13:49:25.221Z'
-id: null
+private: false
+updated_at: '2024-07-17T22:50:01+09:00'
+id: 1b1aaa89623d37cd579c
 organization_url_name: null
 slide: false
 ignorePublish: false
