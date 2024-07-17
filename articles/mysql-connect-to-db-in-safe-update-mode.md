@@ -3,9 +3,10 @@ title: 【MySQL】Safe Updates モードでデータベースに接続する方�
 emoji: 🤖
 type: tech # tech: 技術記事 / idea: アイデア
 topics: 
-  - Linux
-  - MacOS
-  - 基礎
+  - MySQL
+  - データベース
+  - セキュリティ
+  - SQL
 published: true
 ---
 
