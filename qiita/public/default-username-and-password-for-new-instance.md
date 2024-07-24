@@ -1,12 +1,12 @@
 ---
 title: MySQLで新しいインスタンスを作成した場合のデフォルトのユーザー名とパスワード
-private: false
 tags:
   - MySQL
   - SQL
-  - データベース
-updated_at: '2024-07-24T11:00:11.244Z'
-id: null
+  - Database
+private: false
+updated_at: '2024-07-24T20:00:46+09:00'
+id: bb9689573a22e2232a87
 organization_url_name: null
 slide: false
 ignorePublish: false
