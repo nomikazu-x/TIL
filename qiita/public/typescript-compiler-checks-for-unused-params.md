@@ -1,13 +1,13 @@
 ---
 title: TypeScriptコンパイラによる未使用パラメータと変数のチェック
-private: false
 tags:
-  - typescript
-  - javascript
-  - tsconfig
+  - JavaScript
+  - TypeScript
   - コンパイラ
-updated_at: '2024-07-25T11:00:11.564Z'
-id: null
+  - tsconfig
+private: false
+updated_at: '2024-07-25T20:00:44+09:00'
+id: 44d348d1a891c51aa89e
 organization_url_name: null
 slide: false
 ignorePublish: false
