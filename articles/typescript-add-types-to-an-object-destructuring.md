@@ -4,9 +4,6 @@ emoji: 🤖
 type: tech # tech: 技術記事 / idea: アイデア
 topics: 
   - typescript
-  - javascript
-  - 型
-  - デストラクチャリング
 published: true
 ---
 
