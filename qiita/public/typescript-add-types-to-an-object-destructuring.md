@@ -1,10 +1,10 @@
 ---
 title: オブジェクトのデストラクチャリングに型を追加する方法
-private: false
 tags:
-  - typescript
-updated_at: '2024-07-26T13:34:26.107Z'
-id: null
+  - TypeScript
+private: false
+updated_at: '2024-07-26T22:34:57+09:00'
+id: 2111bfd32d7bdb1b1882
 organization_url_name: null
 slide: false
 ignorePublish: false
