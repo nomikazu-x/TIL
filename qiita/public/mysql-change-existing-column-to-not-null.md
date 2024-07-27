@@ -1,12 +1,12 @@
 ---
 title: 【MySQL】既存のカラムをNot Nullに変更する方法
-private: false
 tags:
   - MySQL
   - SQL
-  - データベース
-updated_at: '2024-07-27T11:00:10.570Z'
-id: null
+  - Database
+private: false
+updated_at: '2024-07-27T20:00:41+09:00'
+id: 21aa7847b24e23584d26
 organization_url_name: null
 slide: false
 ignorePublish: false
