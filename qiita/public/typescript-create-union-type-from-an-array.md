@@ -1,10 +1,10 @@
 ---
 title: 配列からユニオン型を作成する方法
-private: false
 tags:
   - TypeScript
-updated_at: '2024-07-30T11:00:09.306Z'
-id: null
+private: false
+updated_at: '2024-07-30T20:00:42+09:00'
+id: 18d1ebe3d90d83665926
 organization_url_name: null
 slide: false
 ignorePublish: false
