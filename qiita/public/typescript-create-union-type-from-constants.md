@@ -1,10 +1,10 @@
 ---
 title: 定数からユニオン型を作成する方法
-private: false
 tags:
   - TypeScript
-updated_at: '2024-08-01T11:00:08.974Z'
-id: null
+private: false
+updated_at: '2024-08-01T20:00:48+09:00'
+id: 9ec849a51a263702be5a
 organization_url_name: null
 slide: false
 ignorePublish: false
