@@ -1,10 +1,10 @@
 ---
 title: 空ではない配列型を作成する方法
-private: false
 tags:
   - TypeScript
-updated_at: '2024-08-02T11:00:10.825Z'
-id: null
+private: false
+updated_at: '2024-08-02T20:00:46+09:00'
+id: fdb528086b8ed1b783ae
 organization_url_name: null
 slide: false
 ignorePublish: false
