@@ -1,10 +1,10 @@
 ---
 title: TypeScriptのオブジェクト型からユニオン型へ！キーを活かした型定義法
-private: false
 tags:
-  - typescript
-updated_at: '2024-08-06T11:00:23.509Z'
-id: null
+  - TypeScript
+private: false
+updated_at: '2024-08-06T20:00:56+09:00'
+id: 18668c47d559dfa275cd
 organization_url_name: null
 slide: false
 ignorePublish: false
