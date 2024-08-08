@@ -1,10 +1,10 @@
 ---
 title: TypeScriptのインデックスアクセス型を使ったオブジェクト型からユニオン型への変換テクニック
-private: false
 tags:
-  - typescript
-updated_at: '2024-08-08T11:00:11.483Z'
-id: null
+  - TypeScript
+private: false
+updated_at: '2024-08-08T20:00:45+09:00'
+id: 2ecc9610d060ed3478b9
 organization_url_name: null
 slide: false
 ignorePublish: false
