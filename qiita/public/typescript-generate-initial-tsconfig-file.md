@@ -1,11 +1,11 @@
 ---
 title: TypeScriptプロジェクトにtsconfig.jsonを生成する方法
-private: false
 tags:
   - TypeScript
   - tsconfig
-updated_at: '2024-08-10T00:30:55.111Z'
-id: null
+private: false
+updated_at: '2024-08-10T09:31:31+09:00'
+id: b6caea52e25775b19d3f
 organization_url_name: null
 slide: false
 ignorePublish: false
