@@ -1,11 +1,11 @@
 ---
 title: TypeScriptでZodスキーマから推論される型を生成する
-private: false
 tags:
   - TypeScript
-  - Zod
-updated_at: '2024-08-10T11:00:09.628Z'
-id: null
+  - zod
+private: false
+updated_at: '2024-08-10T20:00:42+09:00'
+id: dc15dcce021f71eced74
 organization_url_name: null
 slide: false
 ignorePublish: false
