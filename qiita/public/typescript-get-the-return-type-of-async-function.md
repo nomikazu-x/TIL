@@ -1,12 +1,12 @@
 ---
 title: TypeScriptでasync関数の戻り値の型を取得する
-private: false
 tags:
   - TypeScript
   - 非同期関数
-  - Prisma
-updated_at: '2024-08-11T11:00:11.370Z'
-id: null
+  - prisma
+private: false
+updated_at: '2024-08-11T20:00:42+09:00'
+id: 27699ac090dd1b71980f
 organization_url_name: null
 slide: false
 ignorePublish: false
