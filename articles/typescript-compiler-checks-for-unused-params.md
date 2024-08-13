@@ -1,63 +1,56 @@
 ---
-title: TypeScriptコンパイラによる未使用パラメータと変数のチェック
+title: 同じ名前のインターフェースは結合されます！
 emoji: 🤖
 type: tech # tech: 技術記事 / idea: アイデア
 topics: 
   - typescript
-  - javascript
-  - tsconfig
-  - コンパイラ
+  - インターフェース
 published: true
 ---
 
-TypeScriptコンパイラには、コードをチェックする際にリンターのような機能を持つオプションがあります。その中には、パラメータや変数が未使用のままになっていることを防ぐものがあります。
+TypeScriptでは、インターフェースの宣言が同じ名前で複数回行われた場合、それらのインターフェースは結合されます。この記事では、同じ名前のインターフェースがどのように結合されるのかを説明します。
 
-### `noUnusedLocals`オプション
+#### 基本的なインターフェースの宣言
 
-`noUnusedLocals`は、デフォルトでは`false`に設定されていますが、これを`true`に設定すると、未使用のローカル変数がある場合にコンパイラがエラーを出すようになります。以下のコード例を見てみましょう。
-
-```typescript
-function printItem(item: any, index: number) {
-  const indexedItem = `${index}: ${item}`;
-  //    ^^^ 'indexedItem' is declared but its value is never read.
-
-  console.log(item);
-}
-```
-
-上記のコードでは、`indexedItem`という変数が宣言されていますが、その値が一度も使用されていないため、コンパイラがエラーを出します。
-
-### `noUnusedParameters`オプション
-
-同様に、`noUnusedParameters`もデフォルトでは`false`に設定されていますが、これを`true`に設定すると、未使用の関数パラメータがある場合にコンパイラがエラーを出すようになります。以下のコード例を見てみましょう。
+まず、以下のように基本的なインターフェースを宣言します。このインターフェース`Person`は、`name`というプロパティを持つオブジェクトを定義します。
 
 ```typescript
-function printItem(item: any, index: number) {
-  //                          ^^^
-  // 'index' is declared but its value is never read.
-
-  console.log(item);
+interface Person {
+  name: string
 }
 ```
 
-この場合、`index`パラメータが宣言されていますが、その値が一度も使用されていないため、コンパイラがエラーを出します。
+このインターフェースを基に、`name`プロパティを持つ`Person`型のオブジェクトを作成できます。
 
-### `tsconfig.json`の設定例
+#### 同じ名前で別のインターフェースを追加する
 
-以下に、これらのオプションを有効にした`tsconfig.json`の設定例を示します。
+ここで、同じ名前`Person`で別のインターフェースを宣言し、`age`という新しいプロパティを追加してみます。
 
-```json
-{
-  "compilerOptions": {
-    "noUnusedLocals": true,
-    "noUnusedParameters": true
-  }
+```typescript
+interface Person {
+  age: number
 }
 ```
 
-これにより、TypeScriptコンパイラは未使用のローカル変数やパラメータがないかどうかをチェックし、エラーを出すようになります。この設定を使用することで、コードの品質を向上させ、不要な変数やパラメータを削除することでコードの可読性とメンテナンス性を向上させることができます。
+TypeScriptでは、同じ名前のインターフェースが宣言されると、これらは結合されます。つまり、`Person`型は`name`と`age`の両方のプロパティを持つようになります。
 
-## フリーランスエンジニア必見！
+#### 結合されたインターフェースを使用する
+
+インターフェースが結合された結果、以下のように`Person`型のオブジェクトは`name`と`age`の両方のプロパティを持つことができます。
+
+```typescript
+const person: Person = {
+  age: 22,
+  name: 'Bob'
+}
+```
+
+このように、同じ名前のインターフェースを複数回宣言すると、プロパティが結合され、より豊かな型定義が可能になります。
+
+TypeScriptのインターフェース結合機能は、柔軟で強力な型定義を行う際に非常に便利です。TypeScriptのPlaygroundで[実際の例](https://www.typescriptlang.org/play?ssl=12&ssc=2&pln=5&pc=1#code/JYOwLgpgTgZghgYwgAgArQM4HsTIN4BQyxyIcAthAFzIZhSgDmBAvgQaJLIiulNrkIlkcRtVIBXcgCNordghx1kAB0w4afAcgC8+IiVHiATMYA0B4mUo0A5ACEs02-IJr+OAHRGgA)を確認することもできます。
+
+
+## 【ご案内】フリーランスエンジニア必見！
 
 最後に、フリーランスエンジニアの方にご案内です。
 あなたに今だけご紹介できる”エンド直”・”高単価”の案件があります！
