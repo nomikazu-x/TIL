@@ -1,11 +1,11 @@
 ---
 title: 同じ名前のインターフェースは結合されます！
-private: false
 tags:
-  - typescript
+  - TypeScript
   - インターフェース
-updated_at: '2024-08-13T23:39:06.568Z'
-id: null
+private: false
+updated_at: '2024-08-14T08:39:38+09:00'
+id: 74ae2cc6c6834febbe7e
 organization_url_name: null
 slide: false
 ignorePublish: false
