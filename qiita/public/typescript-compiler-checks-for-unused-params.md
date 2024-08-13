@@ -1,10 +1,10 @@
 ---
 title: 同じ名前のインターフェースは結合されます！
-private: false
 tags:
-  - typescript
+  - TypeScript
   - インターフェース
-updated_at: '2024-07-25T20:00:44+09:00'
+private: false
+updated_at: '2024-08-14T08:29:42+09:00'
 id: 44d348d1a891c51aa89e
 organization_url_name: null
 slide: false
